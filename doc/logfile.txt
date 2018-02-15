@@ -1,0 +1,77 @@
+Project documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-sourcepath
+C:\Users\New user\Desktop\UniverseEdit
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;C:\Users\New user\Desktop\UniverseEdit
+-d
+C:\Users\New user\Desktop\UniverseEdit\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+UniverseEdit
+-windowtitle
+UniverseEdit
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+C:\Users\New user\Desktop\UniverseEdit/In.java
+C:\Users\New user\Desktop\UniverseEdit/Universe.java
+C:\Users\New user\Desktop\UniverseEdit/Planet.java
+C:\Users\New user\Desktop\UniverseEdit/StdDraw.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\New user\Desktop\UniverseEdit\In.java...
+Loading source file C:\Users\New user\Desktop\UniverseEdit\Universe.java...
+Loading source file C:\Users\New user\Desktop\UniverseEdit\Planet.java...
+Loading source file C:\Users\New user\Desktop\UniverseEdit\StdDraw.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_40
+Building tree for all the packages and classes...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\In.html...
+C:\Users\New user\Desktop\UniverseEdit\In.java:371: warning - Tag @link: reference not found: BinaryIn
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\Planet.html...
+C:\Users\New user\Desktop\UniverseEdit\Planet.java:39: warning - @exception tag has no arguments.
+C:\Users\New user\Desktop\UniverseEdit\Planet.java:51: warning - @exception tag has no arguments.
+C:\Users\New user\Desktop\UniverseEdit\Planet.java:66: warning - @exception tag has no arguments.
+C:\Users\New user\Desktop\UniverseEdit\Planet.java:79: warning - @exception tag has no arguments.
+C:\Users\New user\Desktop\UniverseEdit\Planet.java:25: warning - Tag @return cannot be used in constructor documentation.  It can only be used in the following types of documentation: method.
+C:\Users\New user\Desktop\UniverseEdit\Planet.java:39: warning - @return tag cannot be used in method with void return type.
+C:\Users\New user\Desktop\UniverseEdit\Planet.java:51: warning - @return tag cannot be used in method with void return type.
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\StdDraw.html...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\Universe.html...
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:30: warning - Tag @return cannot be used in constructor documentation.  It can only be used in the following types of documentation: method.
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:72: warning - @param argument "No" is not a parameter name.
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:72: warning - @return tag cannot be used in method with void return type.
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:17: warning - @return tag cannot be used in method with void return type.
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:55: warning - @param argument "No" is not a parameter name.
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:55: warning - @return tag cannot be used in method with void return type.
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:42: warning - @param argument "No" is not a parameter name.
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:42: warning - @return tag cannot be used in method with void return type.
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:88: warning - @param argument "No" is not a parameter name.
+C:\Users\New user\Desktop\UniverseEdit\Universe.java:88: warning - @return tag cannot be used in method with void return type.
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\package-frame.html...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\package-summary.html...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\package-tree.html...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\constant-values.html...
+Building index for all the packages and classes...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\overview-tree.html...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\index-all.html...
+Building index for all classes...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\allclasses-frame.html...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\allclasses-noframe.html...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\index.html...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\help-doc.html...
+Generating C:\Users\New user\Desktop\UniverseEdit\doc\stylesheet.css...
+18 warnings

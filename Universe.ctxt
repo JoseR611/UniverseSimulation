@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Creates\ a\ Universe\ object,\ fills\ in\ the\ data\ for\ Planet\ objects,\ \r\n\ and\ runs\ a\ simulation\ of\ the\ Planet\ objects\ orbiting\ a\ sun\ Planet\ object\r\n\ @param\ args\ A\ string\ array\ containing\ any\ commands\ from\ the\ command\ line\r\n\ @return\ Void\ return\ value\r\n
+comment1.params=endT_init\ deltaT_init\ universeFile_init
+comment1.target=Universe(double,\ double,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ assigns\ attributes\ to\ appropriate\ values\r\n\ @param\ endT_init\ A\ double\ with\ the\ value\ to\ stop\ the\ simulation\r\n\ @param\ deltaT_init\ A\ double\ with\ the\ value\ of\ change\ in\ time\ for\ the\ simulation\r\n\ @param\ universeFile_init\ A\ String\ with\ the\ name\ of\ the\ text\ file\ it\ will\ use\ to\ create\ the\ Universe\ object\ \ \ \ \ *\ @exception\r\n\ @return\ No\ return\ value\ \r\n
+comment2.params=
+comment2.target=void\ runSimulation()
+comment2.text=\r\n\ Runs\ a\ for\ loop\ that\ updates\ the\ data\ on\ the\ Planet\ objects\ and\ displays\ the\ data\ of\ the\ \r\n\ Planets\ on\ the\ canvas\r\n\ @param\ No\ parameters\r\n\ @return\ Void\ return\ value\r\n
+comment3.params=
+comment3.target=void\ readUniverse()
+comment3.text=\r\n\ Creates\ an\ In\ object,\ ultlizing\ the\ file\ as\ its\ parameter,\r\n\ as\ well\ as\ setting\ the\ X\ and\ Y\ scale\ of\ the\ canvas\ and\ filling\ a\ Planet\ array\ with\ appropriate\ data\r\n\ @param\ No\ parameters\r\n\ @return\ Void\ return\ value\r\n
+comment4.params=
+comment4.target=void\ displayUniverse()
+comment4.text=\r\n\ Displays\ the\ background\ and\ the\ Planet\ objects\ on\ the\ canvas\r\n\ @param\ No\ parameters\r\n\ @return\ Void\ return\ value\r\n
+comment5.params=
+comment5.target=void\ updatePhysics()
+comment5.text=\r\n\ Calculates\ the\ total\ force\ applied\ in\ the\ X\ and\ Y\ direction\ on\ a\ Planet\ object\ and\ updates\ \r\n\ the\ X\ and\ Y\ position\ based\ on\ that\ data\r\n\ @param\ No\ parameters\r\n\ @return\ Void\ return\ value\r\n
+numComments=6

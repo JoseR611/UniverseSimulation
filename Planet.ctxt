@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=px\ py\ vx\ vy\ m\ file
+comment0.target=Planet(double,\ double,\ double,\ double,\ double,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ assigns\ attributes\ to\ appropriate\ values\r\n\ @param\ px\ A\ double\ with\ the\ value\ of\ the\ x-position\ of\ the\ Planet\ object\r\n\ @param\ py\ A\ double\ with\ the\ value\ of\ the\ y-position\ of\ the\ Planet\ object\r\n\ @param\ vx\ A\ double\ with\ the\ value\ of\ the\ x-velocity\ of\ the\ Planet\ object\r\n\ @param\ vy\ A\ double\ with\ the\ value\ of\ the\ y-velcoity\ of\ the\ Planet\ object\r\n\ @param\ m\ A\ double\ with\ the\ value\ of\ the\ mass\ of\ the\ Planet\ object\r\n\ @param\ file\ A\ String\ containing\ the\ name\ of\ the\ picture\ of\ the\ Planet\ object\r\n\ @return\ No\ return\ value\r\n
+comment1.params=
+comment1.target=void\ display()
+comment1.text=\r\n\ Draws\ the\ current\ planet\ with\ positionX\ and\ positionY\r\n\ @exception\r\n\ @return\ Void\ return\ value\r\n
+comment2.params=fx\ fy\ dt
+comment2.target=void\ updatePosition(double,\ double,\ double)
+comment2.text=\r\n\ Updates\ the\ position\ and\ velocity\ of\ the\ planet\r\n\ @param\ fx\ A\ double\ containing\ the\ net\ force\ in\ the\ x-direction\r\n\ @param\ fy\ A\ double\ containing\ the\ net\ force\ in\ the\ y-direction,\ \r\n\ @param\ dt\ A\ double\ containing\ the\ interval\ of\ time\ passed\r\n\ @exception\r\n\ @return\ Void\ return\ value\r\n
+comment3.params=other
+comment3.target=double\ calculateFX(Planet)
+comment3.text=\r\n\ Calculates\ the\ force\ between\ two\ Planet\ objects\ in\ the\ x-direction\r\n\ @param\ other\ A\ Planet\ object\ containing\ the\ position\ of\ the\ planet\r\n\ @exception\r\n\ @return\ Returns\ the\ force\ applied\ on\ the\ planet\ in\ the\ x-direction\ as\ a\ double\r\n
+comment4.params=other
+comment4.target=double\ calculateFY(Planet)
+comment4.text=\r\n\ Calculates\ the\ force\ between\ two\ Planet\ objects\ in\ the\ y-direction\r\n\ @param\ other\ A\ Planet\ object\ containing\ the\ position\ of\ the\ planet\r\n\ @exception\r\n\ @return\ Returns\ the\ force\ applied\ on\ the\ planet\ in\ the\ y-direction\r\n
+numComments=5
